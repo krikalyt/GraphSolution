@@ -89,3 +89,10 @@ int main()
     }
     return 0;
 }
+/*
+1 - do DFS traversal and calculate all low link value for every vertex
+2 - again do dfs traversal if any edge from u->v where u != 0
+    if(id[u] <= lowlink[v]) then u is articulation point where id is discoveredid
+3 - for root node use dfs if in dfs tree there are two or more child of root then 
+    root node is considered in articulation point
+*/

@@ -75,3 +75,9 @@ int main()
     }
     return 0;
 }
+
+/*
+1 - do dfs and find Ids[i](discovering time) and low-link value of every node 
+2 - again do dfs and any edge from u->v is bridge 
+    if id[u] < lowlink[v] 
+/*
